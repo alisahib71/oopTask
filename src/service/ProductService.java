@@ -1,0 +1,17 @@
+package service;
+
+import model.Product;
+
+import java.util.List;
+
+public interface ProductService {
+    void addProduct(Product product);
+
+    Product getProductById(Integer id);
+
+    void deleteProductById(Integer id);
+
+    void updateProductById(Product product, Integer id);
+
+    List<Product> getProductList();
+}
