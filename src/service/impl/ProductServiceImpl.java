@@ -1,7 +1,6 @@
 package service.impl;
 
 import dao.ProductDaoImpl;
-import dao.impl.ProductDao;
 import exception.ProductNotFoundException;
 import exception.ValidateException;
 import model.Product;

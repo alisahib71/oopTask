@@ -34,13 +34,10 @@ public class ProductDaoImpl implements ProductDao {
 
         Product p = products.get(id);
         p.setProductName(product.getProductName());
-        p.setProductCode(product.getProductCode());
-        p.setProductType(product.getProductType());
-        p.setProductPrice(product.getProductPrice());
+        p.setProductNumber(product.getProductNumber());
+        p.setPrice(product.getPrice());
         p.setCount(product.getCount());
         products.replace(id,p);
-
-
 
     }
 
